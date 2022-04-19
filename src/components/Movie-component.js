@@ -11,7 +11,7 @@ export default function MovieComponent({ movie }) {
       <div className="card--content">
         <h3 className="card--title">{movie.title}</h3>
         <p>
-          <small>RELEASE DATE (changed): {movie.release_date}</small>
+          <small>RELEASE DATE (changed again): {movie.release_date}</small>
         </p>
         <p>
           <small>RATING: {movie.vote_average}</small>
